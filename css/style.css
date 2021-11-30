@@ -1,0 +1,231 @@
+html {
+  scroll-behavior: smooth;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 22px;
+}
+
+.container {
+  max-width: 940px;
+  margin: 0 auto;
+}
+
+.menu {
+  margin: 33px 0;
+}
+
+.menu ul {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  list-style: none;
+}
+
+.menu ul li a {
+  text-decoration: none;
+  color: #828282;
+}
+
+.menu ul li a:hover {
+  color: black;
+}
+
+.menu ul li a.active {
+  color: black;
+}
+
+.underline {
+  width: 100%;
+  border: 1px solid #828282;
+  margin-bottom: 40px;
+}
+
+/* Main section */
+
+.about-me-info {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  margin-bottom: 50px;
+}
+
+.my-name {
+  font-size: 47px;
+  line-height: 59px;
+  color: #070707;
+  display: flex;
+  flex-direction: column;
+}
+
+.main-picture {
+  background-image: url(/images/oliver-main.jpg);
+  width: 100%;
+  height: 500px;
+  background-size: cover;
+  background-position: bottom;
+  margin-bottom: 105px;
+}
+
+.container-long {
+  width: 100%;
+  background: #f6f6f6;
+  margin: 0 auto;
+}
+
+.about-me-description {
+  padding: 120px 0 107px 0;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.about-me-description h2 {
+  margin-bottom: 40px;
+}
+
+.about-me-description p {
+  width: 485px;
+  margin: 30px auto 0 auto;
+  line-height: 24px;
+}
+
+.partnership {
+  margin: 80px auto;
+}
+
+.partnership h2 {
+  margin: 50px auto 80px auto;
+  text-align: center;
+}
+
+.brand-icons {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.brand-icon {
+  text-align: center;
+}
+
+.brand-icon img {
+  width: 50%;
+  margin-bottom: 20px;
+}
+
+.brand-icon p {
+  text-align: center;
+  font-weight: 600;
+}
+
+.portfolio {
+  padding-top: 60px;
+}
+.portfolio-section {
+  padding: 50px 0;
+}
+
+.portfolio-section-shadow-left {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  text-align: center;
+  box-shadow: inset -8px 1px 12px -10px #888888;
+}
+
+.portfolio-section-shadow-right {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  text-align: center;
+  box-shadow: inset 8px 1px 12px -10px #888888;
+}
+
+.portfolio-section-shadow-right h1 {
+  color: #c02a29;
+  margin-bottom: 30px;
+}
+
+.portfolio-section-shadow-left h1 {
+  color: #2364ac;
+  margin-bottom: 30px;
+}
+
+.left,
+.right {
+  width: 50%;
+}
+
+.left img,
+.right img {
+  width: 450px;
+}
+
+.small-image {
+  width: 100%;
+  margin: 0 auto 70px auto;
+  text-align: center;
+}
+
+.small-image img {
+  width: 80px;
+}
+
+.contact-me {
+  margin: 220px 0 100px 0;
+  text-align: center;
+}
+
+.contact-me p {
+  margin: 30px auto;
+  line-height: 25px;
+}
+
+.send-message-button {
+  margin: 0 auto;
+  width: 150px;
+  padding: 5px;
+  background: black;
+  border-radius: 90px;
+}
+
+.send-message-button a {
+  color: white;
+  font-size: 14px;
+  text-decoration: none;
+}
+
+.social-media-icons {
+  width: 500px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.social-media-icons img {
+  width: 45px;
+}
+
+.copyright {
+  text-align: center;
+  margin: 20px 0;
+  color: #cecbcb;
+}
+
+@media screen and (min-width: 320px) and (max-width: 480px) {
+
+  body {
+    width: 600px;
+  }
+}
